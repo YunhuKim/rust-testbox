@@ -1,6 +1,10 @@
 # Rust-Testbed
 Rust Testbed for keep all files in one folder, run it. <br/>
-Duplicate "00_default.rs"file in "tests" folder to create new rust test file.
+### How to use?
+1. ```cargo new "create_new_package" --lib```
+2. make "tests" folder at the root directory
+3. create .rs files and done<br/>
+※ Duplicate "00_default.rs"file in "tests" folder to create new rust test file.
 ```
 //to run
 cargo test --test <your file name> -- --nocapture
